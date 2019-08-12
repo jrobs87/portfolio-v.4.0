@@ -17,8 +17,8 @@ a:hover {
 }
 
 body {
-  background: #0A0908;
-  color: #F2E9E4;
+  /* background: #0A0908;
+  color: #F2E9E4; */
 }
 
 section {
@@ -27,12 +27,13 @@ section {
 }
 
 h1 { 
-  font-family: 'DM Sans', sans-serif;
-  font-size: 9em;
+  /* font-family: 'DM Sans', sans-serif; */
+  font-size: 8em;
   line-height: 0.92;
-  font-family: 'DM Serif Display', serif;
-  font-family: 'Gravitas One', cursive;
+  /* font-family: 'DM Serif Display', serif; */
+  /* font-family: 'Gravitas One', cursive; */
   font-family: 'Lato', sans-serif;
+  /* font-family: 'Roboto' */
 }
 
 section {
@@ -59,7 +60,7 @@ section {
 
 .sidenav {
   padding-top: 3em;
-  /* background: #3D393D; */
+  background: #000000;
   color: #F2E9E4;
   /* width: 100%; */
 }
@@ -71,7 +72,7 @@ section {
 }
 
 .nav-link {
-  /* color: #F2E9E4 !important; */
+  color: #F2E9E4 !important;
   font-size: 1.33em !important;
   transition: .66s;
   /* font-family: 'DM Sans', sans-serif; */
@@ -105,7 +106,7 @@ i {
 }
 
 .nav-fixed {
-  color: #F2E9E4;
+  color: black;
   margin: 1em;
   left: 0;
   position: fixed;
@@ -170,7 +171,7 @@ i:hover {
   backdrop-filter: invert(100%);  */
   width: 30px;
   height: 30px;
-  border: 2px solid #F34213;
+  /* border: 2px solid #F34213; */
   border-radius: 100%;
   /* z-index: 300; */
   transition: .3s cubic-bezier(0.75, -1.27, 0.3, 1.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 0.33) opacity;
@@ -206,7 +207,7 @@ i:hover {
   font-size: 1.66em !important;
   border: none;
   display: inline;
-  color: #F2E9E4; 
+  /* color: #F2E9E4;  */
   padding: 0 0 1em 0;
   transition-duration: .33s;
   transition-delay: 0.11s;
@@ -219,7 +220,7 @@ i:hover {
 }
 
 .project {
-border-top: 0.05em solid #F2E9E4;
+border-top: 0.05em solid #000000;
 text-align: left;
 margin-bottom: 3em;
 
