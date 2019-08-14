@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: white  !important;
+  color: #E53D00  !important;
 }
 
 body {
@@ -33,7 +33,13 @@ h1 {
   /* font-family: 'Roboto' */
 }
 
-
+.tech {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: .88em;
+  margin-bottom: 1em;
+  margin-top: -.66em
+}
 .bigText {
    /* font-family: 'DM Serif Display', serif; */
    font-family: Georgia, 'Times New Roman', Times, serif;
@@ -236,7 +242,7 @@ margin-bottom: 6em;
 .project-link {
   margin-right: 1em;
   color: white;
-  background: #E53D00;
+  background: black;
   padding: 0.33em;
   font-family: 'Lato', sans-serif;
 }
