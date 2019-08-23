@@ -43,13 +43,14 @@ h1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: .88em;
-  margin-bottom: 1em;
-  margin-top: -.66em
+  margin-bottom: 2em;
+  margin-top: -.66em;
+  color: #9448BC;
 }
 .bigText {
    /* font-family: 'DM Serif Display', serif; */
    font-family: 'Lato', serif;
-   font-size: 3.33em;
+   font-size: 2em;
    font-weight:100;
 }
 
@@ -97,7 +98,7 @@ h6 {
 }
 
 .nav-link:hover {
-  color: #F9C80E  !important;
+  color: #9448BC  !important;
   background: none;
 }
 
@@ -254,7 +255,7 @@ margin-bottom: 6em;
   margin-right: 1em;
   color: white;
   background: black;
-  padding: 0.33em;
+  padding: 0.44em;
   font-family: 'Lato', sans-serif;
 }
 
@@ -278,4 +279,10 @@ margin-bottom: 6em;
 .project-title {
   font-style: italic;
   font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.job {
+  color: #1982C4;
+  font-style: oblique;
+  font-size: 1.33em
 }
